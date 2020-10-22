@@ -91,5 +91,6 @@ class Car:
 
 
 t_final = 2                             # Final time which was given in question
+
 MY_CAR = Car()                          # gives the car class a name MY_CAR
 MY_CAR.move(np.deg2rad(2), t_final)     # move the car at a constant steering angle 2 degrees (2pi/180) for 2 seconds
