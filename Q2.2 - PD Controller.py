@@ -102,6 +102,7 @@ for t in range(n_sim_points):
     x_cache = np.vstack((x_cache, [MY_CAR.x()]))            # stack array of x for car
 
 t_span = t_sampling*np.arange(n_sim_points+1)
+
 plt.plot(x_cache, y_cache)      # plots trajectory of (x,y)
 plt.grid()                      # adds grid to graph
 plt.xlabel('x(m)')              # gives x a label
